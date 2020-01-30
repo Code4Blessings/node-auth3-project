@@ -20,3 +20,10 @@ module.exports = {
     },
   },
 };
+
+production: {
+  client: 'pg',
+  connection: {
+    host: 'localhost'
+  }
+}
